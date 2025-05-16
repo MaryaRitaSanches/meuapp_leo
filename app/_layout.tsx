@@ -4,7 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 
 export default function Layout() {
   return(
-  <Tabs screenOptions={{tabBarActiveTintColor: 'blue'}}>
+  <Tabs screenOptions={{tabBarActiveTintColor: 'purple'}}>
     <Tabs.Screen name= 'index' 
     options= {{
       title : 'INICIO',
@@ -21,18 +21,6 @@ export default function Layout() {
     options= {{
       title : 'Configurações',
       tabBarIcon: ({color, size}) => <Ionicons name = 'settings-outline' size = {size} color = {color}/>
-    }}
-    />
-    <Tabs.Screen name= 'products' 
-    options= {{
-      title : 'Produtos',
-      tabBarIcon: ({color, size}) => <Ionicons name = 'products-outline' size = {size} color = {color}/>
-    }}
-    />
-     <Tabs.Screen name= 'sales' 
-    options= {{
-      title : 'Vendas',
-      tabBarIcon: ({color, size}) => <Ionicons name = 'sales-outline' size = {size} color = {color}/>
     }}
     />
     

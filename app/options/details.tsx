@@ -1,10 +1,10 @@
 import React from "react";
 import { View } from "react-native";
 
-export default function ProdutsScreen () {
+export default function DetailsScreen(){
     return (
         <View>
-            Estou na tela de Produtos
+            Estou na pagina details
         </View>
     )
 }
