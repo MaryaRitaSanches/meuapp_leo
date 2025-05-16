@@ -9,7 +9,7 @@ export default function OptionsScreen() {
         <View>
             Estou na página options
 
-            <Button title=" Ir para detalhes" onPress={() => router.push('/options/details')}/>
+            <Button title=" Ir para detalhes" onPress={() => router.push('/navigation/stack/details')}/>
        </View>
     );
 }
